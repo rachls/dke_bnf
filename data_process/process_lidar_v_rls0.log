@@ -1,0 +1,162 @@
+nohup: ignoring input
+54
+SETUP and PREPROCESSING COMPLETE
+TOTAL days: 54
+Beginning processing...
+::::20240908:::::
+   LIDAR processing..COMPLETE
+   LST processing...COMPLETE
+   Day complete
+::::20240909:::::
+   LIDAR processing..COMPLETE
+   LST processing...COMPLETE
+   Day complete
+::::20240910:::::
+   LIDAR processing..COMPLETE
+   LST processing...COMPLETE
+   Day complete
+::::20240919:::::
+   LIDAR processing..COMPLETE
+   LST processing...COMPLETE
+   Day complete
+::::20240920:::::
+   LIDAR processing..COMPLETE
+   LST processing...COMPLETE
+   Day complete
+::::20240922:::::
+   LIDAR processing..COMPLETE
+   LST processing...COMPLETE
+   Day complete
+::::20250521:::::
+   LIDAR processing...COMPLETE
+   LST processing...COMPLETE
+   Day complete
+::::20250602:::::
+   LIDAR processing...COMPLETE
+   LST processing...COMPLETE
+   Day complete
+::::20250730:::::
+   LIDAR processing...COMPLETE
+   LST processing...COMPLETE
+   Day complete
+::::20250816:::::
+   LIDAR processing...COMPLETE
+   LST processing...COMPLETE
+   Day complete
+::::20250817:::::
+   LIDAR processing...COMPLETE
+   LST processing...COMPLETE
+   Day complete
+::::20250818:::::
+   LIDAR processing...COMPLETE
+   LST processing...COMPLETE
+   Day complete
+::::20250819:::::
+   LIDAR processing...COMPLETE
+   LST processing...COMPLETE
+   Day complete
+::::20250820:::::
+   LIDAR processing...COMPLETE
+   LST processing...COMPLETE
+   Day complete
+::::20250827:::::
+   LIDAR processing...COMPLETE
+   LST processing...COMPLETE
+   Day complete
+::::20250829:::::
+   LIDAR processing...COMPLETE
+   LST processing...COMPLETE
+   Day complete
+::::20250830:::::
+   LIDAR processing...COMPLETE
+   LST processing...COMPLETE
+   Day complete
+::::20250903:::::
+   LIDAR processing...COMPLETE
+   LST processing...COMPLETE
+   Day complete
+::::20250904:::::
+   LIDAR processing...COMPLETE
+   LST processing...COMPLETE
+   Day complete
+::::20250907:::::
+   LIDAR processing...COMPLETE
+   LST processing...COMPLETE
+   Day complete
+::::20250909:::::
+   LIDAR processing...COMPLETE
+   LST processing...COMPLETE
+   Day complete
+::::20250910:::::
+   LIDAR processing...COMPLETE
+   LST processing...COMPLETE
+   Day complete
+::::20250912:::::
+   LIDAR processing...COMPLETE
+   LST processing...COMPLETE
+   Day complete
+::::20250913:::::
+   LIDAR processing...COMPLETE
+   LST processing...COMPLETE
+   Day complete
+::::20250917:::::
+   LIDAR processing...COMPLETE
+   LST processing...COMPLETE
+   Day complete
+::::20250918:::::
+   LIDAR processing...COMPLETE
+   LST processing...COMPLETE
+   Day complete
+::::20250919:::::
+   LIDAR processing...COMPLETE
+   LST processing...COMPLETE
+   Day complete
+::::20250921:::::
+   LIDAR processing...COMPLETE
+   LST processing...COMPLETE
+   Day complete
+::::20250927:::::
+   LIDAR processing...COMPLETE
+   LST processing...COMPLETE
+   Day complete
+::::20250928:::::
+   LIDAR processing...COMPLETE
+   LST processing...COMPLETE
+   Day complete
+::::20250929:::::
+   LIDAR processing...COMPLETE
+   LST processing...COMPLETE
+   Day complete
+::::20250930:::::
+   LIDAR processing...COMPLETE
+   LST processing...COMPLETE
+   Day complete
+::::20260503:::::
+   LIDAR processing...COMPLETE
+   LST processing...COMPLETE
+   Day complete
+::::20260512:::::
+   LIDAR processing...COMPLETE
+   LST processing...COMPLETE
+   Day complete
+::::20260513:::::
+   LIDAR processing...COMPLETE
+   LST processing...COMPLETE
+   Day complete
+::::20260514:::::
+   LIDAR processing...COMPLETE
+   LST processing...COMPLETE
+   Day complete
+::::20260515:::::
+   LIDAR processing...COMPLETE
+   LST processing...Traceback (most recent call last):
+  File "/stor/soteria/hydro/private/rls134/git/dke_bnf/data_process/process_lidar_v_rls0.py", line 513, in <module>
+    lst_rot = ndimage.rotate(lst_meso, wind_dir, cval=np.nan)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rls134/miniconda3/envs/dkebnf_env/lib/python3.12/site-packages/scipy/ndimage/_interpolation.py", line 1012, in rotate
+    output = _ni_support._get_output(output, input_arr, shape=output_shape,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rls134/miniconda3/envs/dkebnf_env/lib/python3.12/site-packages/scipy/ndimage/_ni_support.py", line 83, in _get_output
+    output = np.zeros(shape, dtype=input.dtype.name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: negative dimensions are not allowed
